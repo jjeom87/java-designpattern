@@ -6,8 +6,7 @@ package com.parkgaram.dp.chapter11.abst;
  * <p>
  * 컴포넌트의 역할은 실질적인 컴포넌트들을 다루는, 컨트롤하는 역할을 합니다.
  * </p>
- * <h2><b>Coffee Hoses Menu</b></h2>
- * </br>
+ * <h2><b>Coffee Hoses Menu</b></h2> </br>
  * <ul>
  * <li>에스프레소 : 커피의 기본</li>
  * <li>아메리카노 : 에스프레소 + 물</li>
@@ -20,9 +19,9 @@ package com.parkgaram.dp.chapter11.abst;
  * @author garam park
  */
 public interface IBeverage {
-	
-	/**
-	 * 총 가격
-	 */
-	int getTotalPrice();
+
+  /**
+   * 총 가격
+   */
+  int getTotalPrice();
 }

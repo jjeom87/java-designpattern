@@ -1,9 +1,9 @@
 
 public class AinterfaceImpl implements Ainterface {
 
-	@Override
-	public void funcA() {
-		System.out.println("AAA");
-	}
+  @Override
+  public void funcA() {
+    System.out.println("AAA");
+  }
 
 }
